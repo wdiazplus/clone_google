@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #292927;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.header{ 
+width: 100%;
+height: 35px; 
+}
+
+
+
+.header-nav__ul{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px 0 0;    
+    align-items: center;
+}
+
+.header-nav__li{
+padding-left: 15px;
+justify-content: center;
+cursor: pointer;
+
+}
+
+.header-nav__li__menu{
+    margin-left: 15px;
+    color:#737373; 
+    opacity: 0.60;  
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width:27px; 
+    height:27px;
+}
+
+.header-nav__li__profile{
+    border-radius: 50px;    
+}
+
+main .main-logo{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.main-input{
+    display: flex;
+    justify-content: center;
+}
+
+
+main .main-input .main-input__container{
+    border: 1px solid #e3e5e9;
+    border-radius: 50px;
+    width: 560px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+main .main-input .main-input__container:hover{
+box-shadow: 0px 2px 6px 0px #cacdd4;
+
+}
+
+main .main-input .main-input__container span{
+    padding: 16px;       
+}
+main .main-input .main-input__container input{
+    width: 480px;
+    height: auto;
+    border: none ;
+    outline: none;  
+}
+
+
+main .main-input .main-input__container a{
+    padding: 13px 10px 0 0; 
+}
