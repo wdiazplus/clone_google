@@ -96,3 +96,74 @@ main .main-input .main-input__container input{
 main .main-input .main-input__container a{
     padding: 13px 10px 0 0; 
 }
+
+.main-button__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-button__container div input{
+width: 160px;
+height: 40px;
+margin: 11px 4px;
+border: 1px;
+padding: 0 16px;
+border: 1px solid #e3e5e9;
+border-radius: 5px;
+background-color: #f2f2f2;
+opacity: 0.65;
+font-size: 14px;
+}
+.main-button__container div input:hover{
+box-shadow: 0px 2px 6px 0px #cacdd4;
+opacity: 1;
+}
+
+.main-text__container{
+    width: inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-text__container p{
+    width: inherit;
+    height: auto;
+    /* margin-left: 400px; */
+    text-align: center;
+
+}
+
+.footer{
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   background-color:#f2f2f2;
+}
+
+.footer-firstrow{
+    /* width: auto;
+    height: 40px;     */
+    /* margin-left: 30px; */
+    border: 2px solid #ffffff;
+  
+    /* opacity: 0.55; */
+    /* font-size: 1px; */
+}
+
+.footer-lastrow{
+    /* width: auto;
+    height: 40px; */
+    border: 2px solid #ffffff;
+ 
+    /* opacity: 0.55; */
+    /* font-size: 13px; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px 0 20px; */
+}
+
