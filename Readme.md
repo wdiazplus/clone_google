@@ -4,5 +4,6 @@ En este proyecto se quiere evidenciar los conocimiento adquiridos en el curso pr
 
 El objetivo es replicar la página de Bienvenida de Google usando únicamente HTML y CSS básico.
 
-![demo_clone_google.png]
+![](demo_clone_google.png)
+
 
